@@ -4,7 +4,7 @@ resource "aws_instance" "demo"{
     vpc_security_group_ids = [aws_security_group.allow_tls.id]
 
     tags = {
-        Name = "Hello terraofrm"
+        Name = "Hello terraform"
         Project = "sample project"
     }
 
